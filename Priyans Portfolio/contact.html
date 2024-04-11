@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Contact Me | Priyans Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="./img/logo2.png" alt="My Portfolio" id="logo" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Projects</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section A: Contact Form-->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Feel free to reach out, and let's create something amazing together.</p>
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
+        >
+          <div class="text-fields">
+            <input
+              name="name"
+              type="text"
+              placeholder="Name"
+              class="text-input name-input"
+            />
+            <input
+              name="subject"
+              type="text"
+              placeholder="Subject"
+              class="text-input subject-input"
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="Email Address"
+              class="email-input text-input"
+            />
+            <input
+              name="phone"
+              type="text"
+              placeholder="Phone Number"
+              class="text-input phone-input"
+            />
+            <textarea
+              name="message"
+              placeholder="Enter Message"
+              class="text-input message-input"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button class="btn-dark" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section B: Contact Info -->
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>priyansbhatta19@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>+977 9840718794</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>Koteshwor, Kathmandu</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="bio bg-light">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1510.7246832160515!2d85.33973918930417!3d27.67611502469056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198ada950fdf%3A0xa0a8cedd4b5dcbae!2sDhungedhara%2C%20Koteshower-32%2C%20Kathmandu!5e0!3m2!1sen!2snp!4v1712844519873!5m2!1sen!2snp" width="100%" height="450" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+  <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2023. Made by Priyans Bhatt </p>
+        <div class="social">
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/priyans.bhatta.98" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/priyansbhatta/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
